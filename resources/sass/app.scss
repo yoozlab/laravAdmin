@@ -1,0 +1,27 @@
+
+// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+$fa-font-path:        "../webfonts";
+
+// Bootstrap
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+// Admin LTE
+@import '~admin-lte/dist/css/AdminLTE.css';
+
+// fontawesome
+@import "@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "@fortawesome/fontawesome-free/scss/solid.scss";
+@import "@fortawesome/fontawesome-free/scss/brands.scss";
+
+// google fonts 
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic');
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
